@@ -1,4 +1,4 @@
-package com.free.demafayz.developermanager;
+package com.free.demafayz.developermanager.ui.activitys;
 
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -6,9 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.basedemafayzlib.ui.fragments.TestFragment;
+import com.free.demafayz.developermanager.R;
 import com.free.demafayz.developermanager.ui.fragments.BaseFragment;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     private FragmentManager fm;
     private FragmentTransaction ft;
